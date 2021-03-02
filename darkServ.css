@@ -235,10 +235,20 @@ th {
     background-color: var(--secondary-accent-color);
 }
 
+.btn-success:focus {
+    background-color: var(--accent-color);
+}
+
 .btn-default:hover {
     background-color: var(--accent-color);
     border: none;
     color: var(--text-color);
+}
+
+.btn-default:focus {
+    background-color: var(--secondary-color);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .close {
