@@ -293,3 +293,18 @@ th {
 .dropdown-menu a {
     color: var(--text-color) !important;
 }
+
+.fc-toolbar {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus {
+    background-color: var(--secondary-color);
+    border: none;
+    opacity: 1;
+}
+
+.calendar-panel-datepicker .panel-body {
+    border: none;
+}
