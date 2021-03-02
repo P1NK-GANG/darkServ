@@ -284,3 +284,12 @@ th {
 .panel-inverse > .panel-heading {
     border-color: var(--accent-color);
 }
+
+.dropdown-menu {
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.dropdown-menu a {
+    color: var(--text-color) !important;
+}
