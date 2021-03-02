@@ -262,3 +262,11 @@ th {
 #message-list {
     border-color: var(--accent-color);
 }
+
+.has-error .control-label{
+    color: var(--accent-color) !important;
+}
+
+.has-error .selectize-input{
+    border-color: var(--accent-color) !important;
+}
