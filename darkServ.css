@@ -1,0 +1,212 @@
+/* ==UserStyle==
+@name         darkServ
+@namespace    github.com/openstyles/stylus
+@version      0.0.1
+@license      unlicense
+@author       Kesefon
+==/UserStyle== */
+:root {
+    --main-bg-color: #252728;
+    --secondary-color: #1c1c1d;
+    --accent-color: #FF0099;
+    --text-color: #FFFFFF;
+    --secondary-text-color: #C1C1C1;
+    --link-color: #FF0099;
+    --hover-link-color: #A10CF5;
+    --topbar-background: url('https://example.org/iserv/file_pass/Files/header.gif');
+    --topbar-color: #000;
+}
+
+
+body {
+    background-color: var(--main-bg-color) !important;
+    color: var(--text-color) !important;
+    caret-color: var(--text-color) !important;
+}
+
+.panel-primary {
+    border-color: var(--accent-color) !important;
+}
+
+.panel {
+    background-color: var(--secondary-color) !important;
+}
+
+.panel-heading {
+    background-color: var(--accent-color) !important;
+}
+
+.mail-item {
+    border-bottom-color: var(--secondary-color) !important;
+}
+
+.mail-item:hover {
+    background-color: var(--secondary-color) !important;
+}
+
+hr {
+    border-color: var(--accent-color) !important;
+}
+
+.text-secondary {
+    color: var(--secondary-text-color) !important;
+}
+
+a {
+    color: var(--link-color) !important;
+}
+
+a:hover {
+    color: var(--hover-link-color) !important;
+}
+
+.btn-link {
+    color: var(--link-color) !important;
+}
+
+.btn-link:hover {
+    color: var(--hover-link-color) !important;
+}
+
+.glyphicon-home {
+    color: var(--link-color) !important;
+}
+
+.glyphicon-home:hover {
+    color: var(--hover-link-color) !important;
+}
+
+.table {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+td {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+tr {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+th {
+    background-color: var(--secondary-color)
+!important;
+    border-color: var(--accent-color) !important;
+}
+
+.panel-default {
+    border-color: var(--accent-color) !important;
+}
+
+.list-group-item {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--accent-color) !important;
+}
+
+.list-group-item a {
+    color: var(--text-color) !important;
+}
+
+#sidebar-wrapper {
+    background-color: var(--secondary-color) !important;
+    border: none;
+}
+
+.sidebar-nav li a {
+    color: var(--text-color) !important;
+}
+
+.sidebar-nav li a:hover {
+    background-color: var(--accent-color) !important;
+}
+
+.sidebar-nav li.nav-divider {
+    color: var(--text-color) !important;
+    border: none;
+}
+
+.sidebar-nav li.sidebar-brand {
+    border: none;
+}
+
+.sidebar-nav li.sidebar-brand a:hover {
+    background: none !important;
+}
+
+.legal-notice {
+    visibility: hidden;
+}
+
+#topbar {
+    background: var(--topbar-background) center/cover no-repeat !important;
+    background-color: var(--topbar-color) !important;
+    border: none;
+}
+
+.content-header {
+    background-color: var(--topbar-color) !important;
+    border: none !important;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+}
+.breadcrumb > .active {
+    color: var(--text-color) !important;
+}
+
+.breadcrumb > li {
+    color: var(--text-color) !important;
+}
+
+.bc {
+    color: var(--text-color) !important;
+}
+
+.header-meta {
+    color: var(--text-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+}
+.panel-inverse > .panel-footer, .panel-action-footer {
+    background-color: var(--secondary-color);
+}
+
+#message #message-header {
+    background-color: var(--secondary-color);
+}
+
+.btn-default {
+    background-color: var(--secondary-color);
+    border-color: var(--main-bg-color);
+    color: var(--accent-color);
+}
+.form-control {
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
+}
+
+#mail-entries {
+    background-color: var(--main-bg-color);
+    border-color: var(--accent-color);
+}
+
+#mail-page {
+    background-color: var(--main-bg-color);
+    border-color: var(--accent-color);
+}
+
+.modal-content {
+    background-color: var(--secondary-color);
+}
+
+.btn-default:hover{
+    background-color: var(--accent-color);
+    border: none;
+    color: var(--text-color);
+}
