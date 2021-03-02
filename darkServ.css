@@ -173,6 +173,12 @@ th {
 .btn-primary {
     background-color: var(--secondary-color);
 }
+
+.btn-primary:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color) !important;
+}
+
 .panel-inverse > .panel-footer,
 .panel-action-footer {
     background-color: var(--secondary-color);
@@ -263,10 +269,18 @@ th {
     border-color: var(--accent-color);
 }
 
-.has-error .control-label{
+.has-error .control-label {
     color: var(--accent-color) !important;
 }
 
-.has-error .selectize-input{
+.has-error .selectize-input {
     border-color: var(--accent-color) !important;
+}
+
+.settings-link {
+    border-top: 1px solid var(--accent-color);
+}
+
+.panel-inverse > .panel-heading {
+    border-color: var(--accent-color);
 }
