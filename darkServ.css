@@ -333,3 +333,40 @@ th {
 .header-meta {
     color: var(--accent-color) !important;
 }
+
+@keyframes iserv-loading-indicator {
+  0% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+  0%,
+  50% {
+    background-color: var(--accent-color);
+  }
+  75% {
+    background-color: var(--hover-link-color);
+  }
+  100% {
+    background-color: var(--secondary-accent-color);
+  }
+}
+
+.label-warning {
+    background-color: var(--accent-color);
+}
+
+.text-muted {
+    color: var(--text-color);
+}
+
+.alert-info {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.panel-title {
+    color: var(--text-color);
+}
