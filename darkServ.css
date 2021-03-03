@@ -3,7 +3,7 @@
 @namespace    github.com/openstyles/stylus
 @version      0.0.1
 @license      unlicense
-@author       Kesefon
+@author       Kesefon & Enluka
 ==/UserStyle== */
 :root {
     --main-bg-color: #252728;
@@ -197,6 +197,7 @@ th {
 .form-control {
     background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
+    color: var(--text-color) !important;
 }
 
 #mail-entries {
@@ -307,4 +308,28 @@ th {
 
 .calendar-panel-datepicker .panel-body {
     border: none;
+}
+
+.btn-primary:focus-within {
+    background-color: var(--accent-color);
+    color: var(--text-color) !important;
+}
+
+.btn-primary:active {
+    background-color: var(--accent-color);
+    color: var(--text-color) !important;
+}
+
+.btn-primary:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color) !important;
+}
+
+.page-loader[data-v-0fb004eb] {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.header-meta {
+    color: var(--accent-color) !important;
 }
