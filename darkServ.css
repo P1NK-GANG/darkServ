@@ -35,6 +35,7 @@ body {
 
 .panel-heading {
     background-color: var(--accent-color) !important;
+    color: var(--text-color) !important;
 }
 
 .mail-item {
@@ -194,10 +195,16 @@ th {
     border-color: var(--main-bg-color);
     color: var(--accent-color);
 }
+
 .form-control {
     background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
     color: var(--text-color) !important;
+}
+
+.form-control:focus {
+    border-color: var(--main-bg-color);
+    box-shadow: var(--main-bg-color);
 }
 
 #mail-entries {
@@ -369,4 +376,45 @@ th {
 
 .panel-title {
     color: var(--text-color);
+}
+
+.border-gray {
+    border-color: var(--accent-color);
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder {
+	color: var(--accent-color);
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .open > .dropdown-toggle.btn-default{
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: var(--secondary-accent-color);
+}
+
+.text-success {
+    color: var(--accent-color);
+}
+
+.well {
+    background-color: var(--main-bg-color);
+    border: none;
+}
+
+.file-universal-hover-highlight {
+    background-color: var(--secondary-accent-color);
+    border-color: var(--accent-color);
+    opacity: 0.8;
+}
+
+.file-universal-hover-highlight-text {
+    color: var(--text-color);
+}
+
+.panel > .table + .panel-body  {
+    border-color: var(--accent-color);
 }
