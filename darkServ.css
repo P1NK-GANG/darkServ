@@ -18,6 +18,9 @@
     --secondary-accent-color: #db0083;
 }
 
+.sidebar-brand > a > img {
+    filter: hue-rotate(105.5deg) saturate(255%); /*Logo Color*/
+}
 
 body {
     background-color: var(--main-bg-color) !important;
