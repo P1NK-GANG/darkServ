@@ -418,3 +418,25 @@ th {
 .panel > .table + .panel-body  {
     border-color: var(--accent-color);
 }
+
+.dropdown-toolbar {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.dropdown-container {
+    background-color: var(--main-bg-color);
+    border-color: var(--accent-color);
+}
+
+.dropdown-footer{
+    border: none;
+}
+
+.notification.active:hover, .notification:hover{
+    background-color: var(--main-bg-color)
+}
+
+.notification-content, .notification-meta {
+    color: var(--secondary-text-color);
+}
