@@ -443,3 +443,11 @@ th {
 .notification-content, .notification-meta {
     color: var(--secondary-text-color);
 }
+
+.badge, .sidebar-nav li.nav-divider.nav-additional-modules .has-badge {
+    color: var(--accent-color);
+}
+
+.sidebar-nav li a:hover > .badge {
+    color: var(--text-color);
+}
