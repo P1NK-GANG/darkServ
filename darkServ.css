@@ -451,3 +451,9 @@ th {
 .sidebar-nav li a:hover > .badge {
     color: var(--text-color);
 }
+
+.alert-success {
+	color: var(--accent-color);
+	background-color: var(--secondary-color);
+	border-color: var(--accent-color);
+}
