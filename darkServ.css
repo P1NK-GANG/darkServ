@@ -457,3 +457,8 @@ th {
 	background-color: var(--secondary-color);
 	border-color: var(--accent-color);
 }
+
+.btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    color: var(--text-color);
+    background-color: var(--secondary-accent-color);
+}
