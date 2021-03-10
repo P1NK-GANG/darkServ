@@ -432,11 +432,15 @@ th {
     border-color: var(--accent-color);
 }
 
-.dropdown-footer{
+.dropdown-footer {
     border: none;
 }
 
-.notification.active:hover, .notification:hover{
+.notification {
+    border-color: transparent;
+}
+
+.notification.active:hover, .notification:hover {
     background-color: var(--main-bg-color)
 }
 
