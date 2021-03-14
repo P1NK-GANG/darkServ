@@ -117,6 +117,7 @@ th {
 #sidebar-wrapper {
     background-color: var(--secondary-color) !important;
     border: none;
+    scrollbar-width: none;
 }
 
 .sidebar-nav li a {
