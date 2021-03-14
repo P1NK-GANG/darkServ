@@ -191,6 +191,12 @@ th {
 
 #message #message-header {
     background-color: var(--secondary-color);
+    border: none;
+}
+
+#message #message-body {
+    background-color: var(--main-bg-color);
+    border: none;
 }
 
 .btn-default {
@@ -465,4 +471,8 @@ th {
 .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
     color: var(--text-color);
     background-color: var(--secondary-accent-color);
+}
+
+.panel-inverse {
+    border-color: var(--accent-color);
 }
