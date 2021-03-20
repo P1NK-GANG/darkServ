@@ -477,3 +477,6 @@ th {
 .panel-inverse {
     border-color: var(--accent-color);
 }
+.panel-warning {
+    border-color: var(--accent-color);
+}
