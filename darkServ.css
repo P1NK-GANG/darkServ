@@ -477,6 +477,21 @@ th {
 .panel-inverse {
     border-color: var(--accent-color);
 }
+
 .panel-warning {
     border-color: var(--accent-color);
+}
+
+.badge {
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+}
+
+.btn-xs .badge, .btn-group-xs > .btn .badge {
+    background-color: transparent;
+    color: var(--accent-color);
+}
+
+.sidebar-nav li.nav-divider.nav-additional-modules .has-badge {
+    color: var(--accent-color);
 }
