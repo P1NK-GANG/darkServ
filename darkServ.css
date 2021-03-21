@@ -41,6 +41,10 @@ body {
     color: var(--text-color) !important;
 }
 
+.panel-default > .panel-heading {
+    background-color: var(--secondary-color) !important;
+}
+
 .mail-item {
     border-bottom-color: var(--secondary-color) !important;
 }
