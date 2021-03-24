@@ -449,6 +449,7 @@ th {
 
 .notification {
     border-color: transparent;
+    color: var(--secondary-text-color);
 }
 
 .notification.active:hover, .notification:hover {
