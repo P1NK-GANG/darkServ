@@ -62,7 +62,7 @@ hr {
 }
 
 a {
-    color: var(--link-color) !important;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -499,4 +499,15 @@ th {
 
 .sidebar-nav li.nav-divider.nav-additional-modules .has-badge {
     color: var(--accent-color);
+}
+
+td.fc-day-top.fc-past {
+
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--accent-color) !important;
+
+}
+
+.fc-day-number {
+    color: var(--text-color) !important;
 }
