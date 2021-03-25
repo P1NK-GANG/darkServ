@@ -1,10 +1,25 @@
 /* ==UserStyle==
 @name         darkServ
-@namespace    github.com/openstyles/stylus
-@version      0.0.1
+@version      0.1.1
+@description  A customizable dark theme for iServ.
+@homepageURL  https://github.com/P1NK-GANG/darkServ
+@supportURL   https://github.com/P1NK-GANG/darkServ/issues
+@namespace    github.com/P1NK-GANG
 @license      unlicense
 @author       Kesefon & Enluka
+@var color    main-bg-color "Background Color" #252728
+@var color    secondary-color "Secondary Color" #1c1c1d
+@var color    accent-color "Accent Color" #FF0099
+@var color    secondary-accent-color "Secondary Accent Color" #db0083
+@var color    text-color "Text Color" #FFFFFF
+@var color    secondary-text-color "Secondary Text Color" #C1C1C1
+@var color    link-color "Link Color" #FF0099
+@var color    hover-link-color "Link Hover Color" #A10CF5
+@var text     topbar-background "Topbar Image" "url('https://example.org/iserv/file_pass/Files/header.gif')"
+@var color    topbar-color "Topbar Color" #000
 ==/UserStyle== */
+
+/* uncomment for pure CSS version
 :root {
     --main-bg-color: #252728;
     --secondary-color: #1c1c1d;
@@ -16,8 +31,9 @@
     --topbar-background: url('https://example.org/iserv/file_pass/Files/header.gif');
     --topbar-color: #000;
     --secondary-accent-color: #db0083;
-}
+}*/
 
+@-moz-document regexp(".*\/iserv\/.*") {
 .sidebar-brand > a > img {
     filter: hue-rotate(105.5deg) saturate(255%); /*Logo Color*/
 }
@@ -356,22 +372,22 @@ th {
 }
 
 @keyframes iserv-loading-indicator {
-  0% {
-    transform: translateY(4px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-  0%,
-  50% {
-    background-color: var(--accent-color);
-  }
-  75% {
-    background-color: var(--hover-link-color);
-  }
-  100% {
-    background-color: var(--secondary-accent-color);
-  }
+    0% {
+        transform: translateY(4px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    0%,
+    50% {
+        background-color: var(--accent-color);
+    }
+    75% {
+        background-color: var(--hover-link-color);
+    }
+    100% {
+        background-color: var(--secondary-accent-color);
+    }
 }
 
 .label-warning {
@@ -397,7 +413,7 @@ th {
 }
 
 .bootstrap-select > .dropdown-toggle.bs-placeholder {
-	color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .bootstrap-select > .dropdown-toggle.bs-placeholder:active, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .open > .dropdown-toggle.btn-default{
@@ -469,9 +485,9 @@ th {
 }
 
 .alert-success {
-	color: var(--accent-color);
-	background-color: var(--secondary-color);
-	border-color: var(--accent-color);
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    border-color: var(--accent-color);
 }
 
 .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
@@ -520,4 +536,5 @@ td.fc-day-top.fc-past {
 .navbar-default .navbar-nav > li.active > a {
     color: var(--accent-color);
     border-color: var(--accent-color);
+}
 }
