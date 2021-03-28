@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         darkServ
-@version      0.1.1
+@version      0.1.2
 @description  A customizable dark theme for iServ.
 @homepageURL  https://github.com/P1NK-GANG/darkServ
 @supportURL   https://github.com/P1NK-GANG/darkServ/issues
@@ -526,6 +526,10 @@ td.fc-day-top.fc-past {
 
 .fc-day-number {
     color: var(--text-color) !important;
+}
+    
+.fc-axis {
+    color: var(--text-color);
 }
 
 .navbar-default .navbar-nav > li > a {
