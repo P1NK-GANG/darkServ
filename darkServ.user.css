@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         darkServ
-@version      0.1.4
+@version      0.1.5
 @description  A customizable dark theme for iServ.
 @homepageURL  https://github.com/P1NK-GANG/darkServ
 @supportURL   https://github.com/P1NK-GANG/darkServ/issues
@@ -566,5 +566,9 @@ div.dataTables_wrapper div.dataTables_info {
 
 .help-block {
     color: var(--secondary-text-color);
+}
+
+.flex-item-list.flex-item-list-panel-hover .flex-item:hover .panel {
+    box-shadow: 0 0 10px var(--secondary-accent-color);
 }
 }
