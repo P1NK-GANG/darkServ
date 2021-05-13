@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         darkServ
-@version      0.1.6
+@version      0.1.7
 @description  A customizable dark theme for iServ.
 @homepageURL  https://github.com/P1NK-GANG/darkServ
 @supportURL   https://github.com/P1NK-GANG/darkServ/issues
@@ -11,9 +11,9 @@
 @var color    secondary-color "Secondary Color" #1c1c1d
 @var color    accent-color "Accent Color" #FF0099
 @var color    secondary-accent-color "Secondary Accent Color" #db0083
-@var color    text-color "Text Color" #FFFFFF
+@var color    text-color-custom "Text Color" #FFFFFF
 @var color    secondary-text-color "Secondary Text Color" #C1C1C1
-@var color    link-color "Link Color" #FF0099
+@var color    link-color-custom "Link Color" #FF0099
 @var color    hover-link-color "Link Hover Color" #A10CF5
 @var text     topbar-background "Topbar Image" "url('https://example.org/iserv/file_pass/Files/header.gif')"
 @var color    topbar-color "Topbar Color" #000
