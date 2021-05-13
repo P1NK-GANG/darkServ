@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         darkServ
-@version      0.1.5
+@version      0.1.6
 @description  A customizable dark theme for iServ.
 @homepageURL  https://github.com/P1NK-GANG/darkServ
 @supportURL   https://github.com/P1NK-GANG/darkServ/issues
@@ -24,9 +24,9 @@
     --main-bg-color: #252728;
     --secondary-color: #1c1c1d;
     --accent-color: #FF0099;
-    --text-color: #FFFFFF;
+    --text-color-custom: #FFFFFF;
     --secondary-text-color: #C1C1C1;
-    --link-color: #FF0099;
+    --link-color-custom: #FF0099;
     --hover-link-color: #A10CF5;
     --topbar-background: url('https://example.org/iserv/file_pass/Files/header.gif');
     --topbar-color: #000;
@@ -40,8 +40,8 @@
 
 body {
     background-color: var(--main-bg-color) !important;
-    color: var(--text-color) !important;
-    caret-color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
+    caret-color: var(--text-color-custom) !important;
 }
 
 .panel-primary {
@@ -54,7 +54,7 @@ body {
 
 .panel-heading {
     background-color: var(--accent-color) !important;
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .panel-default > .panel-heading {
@@ -78,7 +78,7 @@ hr {
 }
 
 a {
-    color: var(--link-color);
+    color: var(--link-color-custom);
 }
 
 a:hover {
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .btn-link {
-    color: var(--link-color) !important;
+    color: var(--link-color-custom) !important;
 }
 
 .btn-link:hover {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .glyphicon-home {
-    color: var(--link-color) !important;
+    color: var(--link-color-custom) !important;
 }
 
 .glyphicon-home:hover {
@@ -131,7 +131,7 @@ th {
 }
 
 .list-group-item a {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 #sidebar-wrapper {
@@ -141,7 +141,7 @@ th {
 }
 
 .sidebar-nav li a {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .sidebar-nav li a:hover {
@@ -149,7 +149,7 @@ th {
 }
 
 .sidebar-nav li.nav-divider {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
     border: none;
 }
 
@@ -180,19 +180,19 @@ th {
     background-color: transparent !important;
 }
 .breadcrumb > .active {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .breadcrumb > li {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .bc {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .header-meta {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .btn-primary {
@@ -201,7 +201,7 @@ th {
 
 .btn-primary:hover {
     background-color: var(--accent-color);
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .panel-inverse > .panel-footer,
@@ -229,7 +229,7 @@ th {
 .form-control {
     background-color: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .form-control:focus {
@@ -286,7 +286,7 @@ th {
 .btn-default:hover {
     background-color: var(--accent-color);
     border: none;
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .btn-default:focus {
@@ -329,7 +329,7 @@ th {
 }
 
 .dropdown-menu a {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .fc-toolbar {
@@ -349,17 +349,17 @@ th {
 
 .btn-primary:focus-within {
     background-color: var(--accent-color);
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .btn-primary:active {
     background-color: var(--accent-color);
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .btn-primary:focus {
     background-color: var(--accent-color);
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
 
 .page-loader[data-v-0fb004eb] {
@@ -395,7 +395,7 @@ th {
 }
 
 .text-muted {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .alert-info {
@@ -405,7 +405,7 @@ th {
 }
 
 .panel-title {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .border-gray {
@@ -442,7 +442,7 @@ th {
 }
 
 .file-universal-hover-highlight-text {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .panel > .table + .panel-body  {
@@ -481,7 +481,7 @@ th {
 }
 
 .sidebar-nav li a:hover > .badge {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .alert-success {
@@ -491,7 +491,7 @@ th {
 }
 
 .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
-    color: var(--text-color);
+    color: var(--text-color-custom);
     background-color: var(--secondary-accent-color);
 }
 
@@ -525,11 +525,11 @@ td.fc-day-top.fc-past {
 }
 
 .fc-day-number {
-    color: var(--text-color) !important;
+    color: var(--text-color-custom) !important;
 }
     
 .fc-axis {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -547,12 +547,12 @@ td.fc-day-top.fc-past {
 }
 
 .nav-tabs > li.active > a {
-    color: var(--text-color);
+    color: var(--text-color-custom);
     background-color: var(--accent-color);
 }
 
 .nav-tabs > li > a {
-    color: var(--text-color);
+    color: var(--text-color-custom);
 }
 
 div.dataTables_wrapper div.dataTables_info {
